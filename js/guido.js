@@ -1,4 +1,4 @@
-function guidoScroll(id){
+function scrollG(id){
     $("html,body").animate({scrollTop: $('#'+id).offset().top}, 1000);
 }
 
