@@ -6,7 +6,13 @@
 	body {
 		background: white;
 		background-image: url(../../images/COLOR\ p1/4.JPG);
-		background-repeat: round;
+		background-position: center center;
+  
+		background-repeat: no-repeat;
+		
+		background-attachment: fixed;
+		
+		background-size: cover;
 	}
 
 
