@@ -20,6 +20,11 @@ body {
     padding: 0;
 }
 
+.bottonClients{
+    margin-top: 110px;
+    text-align: center;
+    margin-left: 15px;
+}
 
 /* ------------------------------------------------------------------- 
  * ## links
@@ -1046,7 +1051,7 @@ label > input[type="radio"] {
 
 .subhead {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 1.7rem;
+    font-size: 3.1rem;
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
@@ -2545,18 +2550,11 @@ html.no-csstransitions .home-content__main {
 /* ------------------------------------------------------------------- 
  * ## slider
  * ------------------------------------------------------------------- */
-.clients-outer {
-    margin-top: 3.6rem;
-    padding-bottom: 9rem;
-    text-align: center;
-    position: relative;
-}
 
 .clients__slide {
     display: block;
     opacity: .55;
     padding: 1.5rem 2.8rem;
-    -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
 }
 
