@@ -144,30 +144,29 @@
 
     <div class="overlay"></div>
 
-
-
-
     <div class="row contact-content" data-aos="fade-up">
         
         <div class="contact-primary">
 
-            <h3 class="h6">Enviar Consulta</h3>
+            <h3 class="h6">Realizar Consulta</h3>
 
-            <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+            <form id="contact" action="contacto.php" method="post">
                 <fieldset>
 
                 <div class="form-field">
-                    <input name="contactName" type="text" id="contactName" placeholder="Nombre" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    <input name="nombre" type="text"  placeholder="Nombre" value="" minlength="2" required="" aria-required="true" class="full-width">
                 </div>
                 <div class="form-field">
-                    <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                    <input name="email" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
                 </div>
                 <div class="form-field">
-                    <input name="contactTelefono" type="number" id="contactTelefono" placeholder="Teléfono" value="" class="full-width">
+                    <input name="telefono" type="number" id="contactTelefono" placeholder="Teléfono" value="" class="full-width">
                 </div>
                 <div class="form-field">
-                    <textarea name="contactMessage" id="contactMessage" placeholder="Mensaje" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    <textarea name="mensaje" id="contactMessage" placeholder="Mensaje" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                 </div>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Enviar">Enviar</button>
+
                 <div class="form-field">
                   <a class="btn btn-primary btn-xl text-uppercase cursorPointer" >ENVIAR</a>
                   <div class="submit-loader">
