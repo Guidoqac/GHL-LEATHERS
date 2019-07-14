@@ -422,20 +422,6 @@
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 		}
 
-			.poptrox-popup .closer:before {
-				content: '';
-				display: block;
-				position: absolute;
-				right: 16px;
-				top: 16px;
-				width: 40px;
-				height: 40px;
-				border-radius: 100%;
-				box-shadow: inset 0 0 0 2px #fff;
-				background: url("images/poptrox-closer.svg") center center;
-				color: #ffffff !important;
-			}
-
 		.poptrox-popup:hover .closer {
 			opacity: 0.5;
 		}
